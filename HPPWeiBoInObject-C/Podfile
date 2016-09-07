@@ -1,0 +1,15 @@
+# 支持的最低版本
+platform :ios, '8.0'
+
+use_frameworks!
+
+target 'HPPWeiBoInObject-C’ do
+
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'SnapKit', '~> 0.19.1'
+pod 'YYModel'
+pod 'MJRefresh'
+pod 'SVProgressHUD'
+
+end
