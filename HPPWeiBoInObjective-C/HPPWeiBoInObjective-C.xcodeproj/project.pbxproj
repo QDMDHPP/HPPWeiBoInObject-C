@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56EB13C921B7302BD7406CC5 /* Pods_HPPWeiBoInObjective_C.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2026E1BD93C16B530FC1461 /* Pods_HPPWeiBoInObjective_C.framework */; };
 		AE03F97E1D805B29004F35EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE03F97D1D805B29004F35EE /* main.m */; };
 		AE03F9811D805B29004F35EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE03F9801D805B29004F35EE /* AppDelegate.m */; };
 		AE03F9841D805B29004F35EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE03F9831D805B29004F35EE /* ViewController.m */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6FD975FC197C97DD70A96289 /* Pods-HPPWeiBoInObjective-C.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPPWeiBoInObjective-C.release.xcconfig"; path = "Pods/Target Support Files/Pods-HPPWeiBoInObjective-C/Pods-HPPWeiBoInObjective-C.release.xcconfig"; sourceTree = "<group>"; };
 		AE03F9791D805B29004F35EE /* HPPWeiBoInObjective-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HPPWeiBoInObjective-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE03F97D1D805B29004F35EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AE03F97F1D805B29004F35EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +28,8 @@
 		AE03F9881D805B29004F35EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE03F98B1D805B29004F35EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE03F98D1D805B29004F35EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B724092F7FDD747EC133AB5E /* Pods-HPPWeiBoInObjective-C.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPPWeiBoInObjective-C.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HPPWeiBoInObjective-C/Pods-HPPWeiBoInObjective-C.debug.xcconfig"; sourceTree = "<group>"; };
+		D2026E1BD93C16B530FC1461 /* Pods_HPPWeiBoInObjective_C.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HPPWeiBoInObjective_C.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56EB13C921B7302BD7406CC5 /* Pods_HPPWeiBoInObjective_C.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D0DD66C4D106F1A22F4D770 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2026E1BD93C16B530FC1461 /* Pods_HPPWeiBoInObjective_C.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66D04FC04F889B46C3CAB575 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B724092F7FDD747EC133AB5E /* Pods-HPPWeiBoInObjective-C.debug.xcconfig */,
+				6FD975FC197C97DD70A96289 /* Pods-HPPWeiBoInObjective-C.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AE03F9701D805B29004F35EE = {
 			isa = PBXGroup;
 			children = (
 				AE03F97B1D805B29004F35EE /* HPPWeiBoInObjective-C */,
 				AE03F97A1D805B29004F35EE /* Products */,
+				66D04FC04F889B46C3CAB575 /* Pods */,
+				2D0DD66C4D106F1A22F4D770 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE03F9901D805B29004F35EE /* Build configuration list for PBXNativeTarget "HPPWeiBoInObjective-C" */;
 			buildPhases = (
+				EF3E90497A641C7C0BA99D50 /* [CP] Check Pods Manifest.lock */,
 				AE03F9751D805B29004F35EE /* Sources */,
 				AE03F9761D805B29004F35EE /* Frameworks */,
 				AE03F9771D805B29004F35EE /* Resources */,
+				0BC0D7AFFAB89CC9A78A3580 /* [CP] Embed Pods Frameworks */,
+				6335F16FF2B79496DCFC6232 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,6 +170,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BC0D7AFFAB89CC9A78A3580 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HPPWeiBoInObjective-C/Pods-HPPWeiBoInObjective-C-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6335F16FF2B79496DCFC6232 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HPPWeiBoInObjective-C/Pods-HPPWeiBoInObjective-C-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF3E90497A641C7C0BA99D50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AE03F9751D805B29004F35EE /* Sources */ = {
@@ -261,6 +336,7 @@
 		};
 		AE03F9911D805B29004F35EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B724092F7FDD747EC133AB5E /* Pods-HPPWeiBoInObjective-C.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "HPPWeiBoInObjective-C/Info.plist";
@@ -272,6 +348,7 @@
 		};
 		AE03F9921D805B29004F35EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FD975FC197C97DD70A96289 /* Pods-HPPWeiBoInObjective-C.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "HPPWeiBoInObjective-C/Info.plist";
@@ -300,6 +377,7 @@
 				AE03F9921D805B29004F35EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
