@@ -10,10 +10,13 @@
 		56EB13C921B7302BD7406CC5 /* Pods_HPPWeiBoInObjective_C.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2026E1BD93C16B530FC1461 /* Pods_HPPWeiBoInObjective_C.framework */; };
 		AE03F97E1D805B29004F35EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE03F97D1D805B29004F35EE /* main.m */; };
 		AE03F9811D805B29004F35EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE03F9801D805B29004F35EE /* AppDelegate.m */; };
-		AE03F9841D805B29004F35EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE03F9831D805B29004F35EE /* ViewController.m */; };
-		AE03F9871D805B29004F35EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE03F9851D805B29004F35EE /* Main.storyboard */; };
 		AE03F9891D805B29004F35EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE03F9881D805B29004F35EE /* Assets.xcassets */; };
-		AE03F98C1D805B29004F35EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE03F98A1D805B29004F35EE /* LaunchScreen.storyboard */; };
+		AE4811921D80648D008597AF /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4811911D80648D008597AF /* DiscoverViewController.m */; };
+		AE4811951D8064A6008597AF /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4811941D8064A6008597AF /* HomeViewController.m */; };
+		AE4811981D8064B5008597AF /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4811971D8064B5008597AF /* MessageViewController.m */; };
+		AE48119B1D8064E3008597AF /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE48119A1D8064E3008597AF /* RootViewController.m */; };
+		AE48119E1D806528008597AF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE48119D1D806528008597AF /* MainViewController.m */; };
+		AE4811A21D806DFA008597AF /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4811A11D806DFA008597AF /* ProfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,12 +25,20 @@
 		AE03F97D1D805B29004F35EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AE03F97F1D805B29004F35EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AE03F9801D805B29004F35EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AE03F9821D805B29004F35EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AE03F9831D805B29004F35EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AE03F9861D805B29004F35EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE03F9881D805B29004F35EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AE03F98B1D805B29004F35EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE03F98D1D805B29004F35EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE4811901D80648D008597AF /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		AE4811911D80648D008597AF /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		AE4811931D8064A6008597AF /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		AE4811941D8064A6008597AF /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		AE4811961D8064B5008597AF /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		AE4811971D8064B5008597AF /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		AE4811991D8064E3008597AF /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		AE48119A1D8064E3008597AF /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		AE48119C1D806528008597AF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		AE48119D1D806528008597AF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		AE4811A01D806DFA008597AF /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		AE4811A11D806DFA008597AF /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		B724092F7FDD747EC133AB5E /* Pods-HPPWeiBoInObjective-C.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPPWeiBoInObjective-C.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HPPWeiBoInObjective-C/Pods-HPPWeiBoInObjective-C.debug.xcconfig"; sourceTree = "<group>"; };
 		D2026E1BD93C16B530FC1461 /* Pods_HPPWeiBoInObjective_C.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HPPWeiBoInObjective_C.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -82,13 +93,10 @@
 		AE03F97B1D805B29004F35EE /* HPPWeiBoInObjective-C */ = {
 			isa = PBXGroup;
 			children = (
+				AE4811871D806230008597AF /* class */,
 				AE03F97F1D805B29004F35EE /* AppDelegate.h */,
 				AE03F9801D805B29004F35EE /* AppDelegate.m */,
-				AE03F9821D805B29004F35EE /* ViewController.h */,
-				AE03F9831D805B29004F35EE /* ViewController.m */,
-				AE03F9851D805B29004F35EE /* Main.storyboard */,
 				AE03F9881D805B29004F35EE /* Assets.xcassets */,
-				AE03F98A1D805B29004F35EE /* LaunchScreen.storyboard */,
 				AE03F98D1D805B29004F35EE /* Info.plist */,
 				AE03F97C1D805B29004F35EE /* Supporting Files */,
 			);
@@ -101,6 +109,97 @@
 				AE03F97D1D805B29004F35EE /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE4811871D806230008597AF /* class */ = {
+			isa = PBXGroup;
+			children = (
+				AE4811881D806230008597AF /* Model(模型) */,
+				AE4811891D806230008597AF /* Tools(工具类) */,
+				AE48118A1D806230008597AF /* View(视图和控制器) */,
+				AE48118B1D806230008597AF /* ViewModel(视图模型) */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		AE4811881D806230008597AF /* Model(模型) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model(模型)";
+			sourceTree = "<group>";
+		};
+		AE4811891D806230008597AF /* Tools(工具类) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Tools(工具类)";
+			sourceTree = "<group>";
+		};
+		AE48118A1D806230008597AF /* View(视图和控制器) */ = {
+			isa = PBXGroup;
+			children = (
+				AE48118C1D8062BB008597AF /* Discover(发现) */,
+				AE48118D1D8062BB008597AF /* Home(主页) */,
+				AE48118E1D8062BB008597AF /* Main(主控制器) */,
+				AE48118F1D8062BB008597AF /* Message(消息) */,
+				AE48119F1D806DD8008597AF /* Profile(我) */,
+			);
+			path = "View(视图和控制器)";
+			sourceTree = "<group>";
+		};
+		AE48118B1D806230008597AF /* ViewModel(视图模型) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "ViewModel(视图模型)";
+			sourceTree = "<group>";
+		};
+		AE48118C1D8062BB008597AF /* Discover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				AE4811901D80648D008597AF /* DiscoverViewController.h */,
+				AE4811911D80648D008597AF /* DiscoverViewController.m */,
+			);
+			path = "Discover(发现)";
+			sourceTree = "<group>";
+		};
+		AE48118D1D8062BB008597AF /* Home(主页) */ = {
+			isa = PBXGroup;
+			children = (
+				AE4811931D8064A6008597AF /* HomeViewController.h */,
+				AE4811941D8064A6008597AF /* HomeViewController.m */,
+			);
+			path = "Home(主页)";
+			sourceTree = "<group>";
+		};
+		AE48118E1D8062BB008597AF /* Main(主控制器) */ = {
+			isa = PBXGroup;
+			children = (
+				AE4811991D8064E3008597AF /* RootViewController.h */,
+				AE48119A1D8064E3008597AF /* RootViewController.m */,
+				AE48119C1D806528008597AF /* MainViewController.h */,
+				AE48119D1D806528008597AF /* MainViewController.m */,
+			);
+			path = "Main(主控制器)";
+			sourceTree = "<group>";
+		};
+		AE48118F1D8062BB008597AF /* Message(消息) */ = {
+			isa = PBXGroup;
+			children = (
+				AE4811961D8064B5008597AF /* MessageViewController.h */,
+				AE4811971D8064B5008597AF /* MessageViewController.m */,
+			);
+			path = "Message(消息)";
+			sourceTree = "<group>";
+		};
+		AE48119F1D806DD8008597AF /* Profile(我) */ = {
+			isa = PBXGroup;
+			children = (
+				AE4811A01D806DFA008597AF /* ProfileViewController.h */,
+				AE4811A11D806DFA008597AF /* ProfileViewController.m */,
+			);
+			path = "Profile(我)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,9 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE03F98C1D805B29004F35EE /* LaunchScreen.storyboard in Resources */,
 				AE03F9891D805B29004F35EE /* Assets.xcassets in Resources */,
-				AE03F9871D805B29004F35EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,32 +321,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE03F9841D805B29004F35EE /* ViewController.m in Sources */,
+				AE4811981D8064B5008597AF /* MessageViewController.m in Sources */,
+				AE48119B1D8064E3008597AF /* RootViewController.m in Sources */,
+				AE4811A21D806DFA008597AF /* ProfileViewController.m in Sources */,
+				AE48119E1D806528008597AF /* MainViewController.m in Sources */,
+				AE4811921D80648D008597AF /* DiscoverViewController.m in Sources */,
 				AE03F9811D805B29004F35EE /* AppDelegate.m in Sources */,
+				AE4811951D8064A6008597AF /* HomeViewController.m in Sources */,
 				AE03F97E1D805B29004F35EE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		AE03F9851D805B29004F35EE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AE03F9861D805B29004F35EE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AE03F98A1D805B29004F35EE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AE03F98B1D805B29004F35EE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AE03F98E1D805B29004F35EE /* Debug */ = {
@@ -339,6 +422,7 @@
 			baseConfigurationReference = B724092F7FDD747EC133AB5E /* Pods-HPPWeiBoInObjective-C.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = "HPPWeiBoInObjective-C/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hpp.HPPWeiBoInObjective-C";
@@ -351,6 +435,7 @@
 			baseConfigurationReference = 6FD975FC197C97DD70A96289 /* Pods-HPPWeiBoInObjective-C.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = "HPPWeiBoInObjective-C/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hpp.HPPWeiBoInObjective-C";
